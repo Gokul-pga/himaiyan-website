@@ -1,0 +1,328 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+:root{
+    --primary: 20px;
+    --primary-light: 13px;
+}
+/* body{
+    background-color: rgb(209, 195, 195);
+} */
+.bg-cinematic{
+    position: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: -5;
+    right: 0;
+    top: 0;
+}
+.nav-bar{
+    height: 100%;
+    width: 100%;
+    /* top: 0;
+    position: sticky; */
+}
+.navigation{
+    z-index: 5;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    padding: 18px 0;
+    background-color: rgb(48, 45, 45);
+    border-radius: 5px;
+}
+.nav-con1{
+    font-size: var(--primary);
+    margin: 0 0 0 20px;
+    letter-spacing: .2em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 100%;
+}
+.nav-con2 ul{
+    display: flex;
+    letter-spacing: .1em;
+}
+.nav-con2 ul li{
+    list-style-type: none;
+    text-decoration: none;
+    margin-right: 25px;
+    font-size: var(--primary-light);
+}
+
+/* ------------------------------------------------------Nav-bar End---------------------------------------------------------- */
+
+
+/* --------------------------------------------------------------------------------------------- */
+.contents-heading-1{
+    text-align: center;
+    margin: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+
+
+
+/* ----------------------------------------------------------------------------------------------- */
+
+.main-content{
+    margin: 5px 5px;
+    height: 100%;
+    width: 100%;
+}
+
+.content-1{
+    display: flex;
+    /* background-color: aqua; */
+    height: 100%;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+.content-1 .img-1{
+    margin: 10px 0 0 0;
+    border-radius: 10px;
+    box-shadow: 0 0 3px  rgba(255, 255, 255, 0.445);
+    height: auto;
+    width: 400px;
+}
+.con-2{
+    text-align: center;
+    height: 100%;
+    /* background-color: blueviolet; */
+    margin: 15px 10px 0 10px;
+    padding: 15px 10px;
+    letter-spacing: .1em;
+    line-height: 1.3em;
+    font-size: var(--primary-light);
+    overflow: hidden;
+}
+
+/* -------------------------------------------------------------- */
+
+.content-2{
+    display: flex;
+    /* background-color: aqua; */
+    height: 100%;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    margin: 15px 5px 15px 5px;
+   
+}
+.content-2 .con-2-desc1{
+    text-align: center;
+    height: 100%;
+    /* background-color: blueviolet; */
+    letter-spacing: .1em;
+    line-height: 1.3em;
+    font-size: var(--primary-light);
+    overflow: hidden;
+}
+.con2-desc2{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    /* background-color: blueviolet; */
+    margin-bottom: 18px;
+    margin-top: 18px;
+
+    margin-left: 10px;
+}
+.con-1 .video-1{
+    height: 350px;
+    width: 500px;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin: 15px 0;
+    text-align: center;
+    justify-content: center;
+}
+/* ----------------------------------------------------------------------------------------------------- */
+
+.content-3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 5px;
+    position: sticky;
+    top: 0;
+    padding: 10px 0;
+    margin: 0 15px 0 0;
+}
+.content-3 .con-3-heading h1{ 
+    color: black;
+    margin: 0 0 0 20px;
+}
+.content-3 .con-3-heading h6{
+    color: black;
+    margin: 0 0 0 16px;
+    font-weight: bold;
+}
+.con-3-button .con-3-btn{
+    color: white;
+    background-color: black;
+    border: 1px white solid;
+    height: 100%;
+    align-items: center;
+    padding: 0 15px;
+    margin: 0 10px 0 0;
+}
+
+
+
+
+        /* -------------------------Conclusion Content Start-------------------------------- */
+
+.conclusion{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 15px 10px;
+    font-size: var(--primary-light);
+    line-height: 1.2em;
+}
+.conclusion ul li{
+    list-style-type: none;
+    text-decoration: none;
+}
+.con-logo .img-2{
+    border-radius: 60%;
+    height: 150px;
+    transition: .5s;
+}
+.con-logo .img-2:hover{
+    scale: 1.1;
+    transition: .5s;
+    border: 1px black solid;
+    box-shadow: 0 0 10px black;
+}
+.con-model .con-model-heading{
+    margin: 15px 0 5px 0;
+}
+.con-model ul li{
+    margin: 5px 0 0 5px;
+    /* background-color: aqua; */
+}
+
+/* ------------- */
+.con-address .con-address-heading{
+    margin: 15px 0 8px 0;
+    /* background-color: aqua; */
+
+}
+.con-address .con-address-add{
+    margin: 5px 0 0 5px;
+    line-height: 1.3em;
+    /* background-color: aqua; */
+
+}
+/* ------------- */
+.con-support .con-support-heading{
+    margin: 15px 0 8px 0;
+
+}
+.con-support ul li{
+    margin: 5px 0 0 5px;
+    /* background-color: aqua; */
+}
+
+.btn-top{
+    background-color: #e2860d;
+    color: #fff;
+    padding: 5px 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    border: none;
+    background: transparent;
+    bottom: 10px;
+    position: fixed;
+    right: 0;
+    cursor: pointer;
+    margin: 0 5px 0 0;
+}
+.btn-top:hover{
+    background-color: rgba(182, 171, 171, 0.795);
+    border-radius: 5px;
+    color: rgb(39, 38, 38);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media  (max-width:850px) { 
+    .navigation{
+        padding: 15px 0;
+    }
+    .nav-con2{
+        display: none;
+    }
+    .bg-cinematic{
+        width: auto;
+        height: 100%;
+        background-size: cover;
+    }
+}
+@media (max-width:890px){
+    .content-1{
+        width: 100%;
+        display: block;
+    }
+    .content-1 .img-1{
+        height: auto;
+        width: 100%;
+    }
+    .con-2{
+        letter-spacing: 0;
+        line-height: 1.3em;
+    }
+    .content-2{
+        margin: auto;
+        display: block;
+    }
+    .content-3{
+        margin-bottom: 25px;
+    }
+    .conclusion{
+        display: block;
+        text-align: center;
+        background-color: rgba(29, 26, 26, 0.87);
+        border-radius: 10px;
+        width: 100%;
+    }
+    .conclusion .con-logo{
+        margin-top: 15px;
+    }
+    .con-model, .con-address, .con-support{
+        margin-bottom: 15px;
+    }
+}
